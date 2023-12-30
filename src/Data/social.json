@@ -2,23 +2,23 @@
   {
     "name": "Github",
     "url": "https://github.com/BraulioUcPech",
-    "image": "SVG/github.svg"
+    "image": "github.svg"
   },
   {
     "name": "LinkedIn",
     "url": "https://www.linkedin.com/in/braulio-uc-pech-22027/",
-    "image": "SVG/linkedin.svg"
+    "image": "linkedin.svg"
   }
   ,
   {
     "name": "Medium",
     "url": "https://www.medium.com",
-    "image": "SVG/medium.svg"
+    "image": "medium.svg"
   }
   ,
   {
     "name": "Email",
     "url": "mailto: braulioalexsanderucpech@gmail.com",
-    "image": "SVG/envelope.svg"
+    "image": "envelope.svg"
   }
 ]

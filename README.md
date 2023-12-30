@@ -11,7 +11,7 @@ pnpm create astro@latest -- --template basics
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
 ![just-the-basics] [Imgur](https://imgur.com/eENJSV4) 
-
+![img](./public/img/capture-1.png)
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
