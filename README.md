@@ -10,24 +10,56 @@ npm create astro@latest -- --template basics
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+![just-the-basics](/public/img/captura-1.png)
 
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
+```
+└── 📁API-Astro-v00.002
+    └── .gitignore
+    └── .prettierrc.mjs
+    └── 📁.vscode
+        └── extensions.json
+        └── launch.json
+    └── astro.config.mjs
+    └── package.json
+    └── pnpm-lock.yaml
+    └── 📁public
+        └── 📁SVG
+            └── envelope.svg
+            └── github.svg
+            └── 📁img
+                └── capture1.png
+            └── linkedin.svg
+            └── medium.svg
+    └── README.md
+    └── 📁src
+        └── 📁assets
+            └── joke.svg
+            └── laptop.svg
+            └── person.svg
+            └── rocket.svg
+        └── 📁components
+            └── AppCards.astro
+            └── Card.astro
+            └── Footer.astro
+            └── Nav.astro
+            └── SocialLink.astro
+        └── 📁Data
+            └── apps.json
+            └── repos.json
+            └── social.json
+        └── env.d.ts
+        └── 📁layouts
+            └── Layout.astro
+        └── 📁pages
+            └── apps.astro
+            └── index.astro
+            └── jokes.astro
+            └── proyects.astro
+    └── tsconfig.json
 ```
 
 Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
