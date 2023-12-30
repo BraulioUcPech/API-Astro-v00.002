@@ -1,0 +1,22 @@
+[
+  {
+    "name": "leetcode-answers ",
+    "url": "https://www.linkedin.com/in/braulio-uc-pech-22027/",
+    "description": "Jekyll daily blog solving the LeetCode question of the day in JS"
+  },
+  {
+    "name": "learning-astro",
+    "url": "https://github.com/BraulioUcPech/Astro-Retro-Blog-v0.000",
+    "description": "Repo for learning astro web framework"
+  },
+  {
+    "name": "Astro-API-video",
+    "url": "https://github.com/BraulioUcPech/Astro-API",
+    "description": "Some miscellaneous apps in Python that run in a terminal."
+  },
+  {
+    "name": "proyect_cryto",
+    "url": "https://github.com/BraulioUcPech/proyect_cryto",
+    "description": "MagicMirror Module displaying random words from urbandictionary's API"
+  }
+]

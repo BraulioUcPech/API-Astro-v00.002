@@ -1,0 +1,50 @@
+---
+---
+
+<nav class="navbar">
+    <a href="/"><span>Home</span></a>
+    <a href="/proyects">Projects</a>
+    <a href="/apps">Apps</a>
+    <a href="/jokes">Jokes</a>
+  </nav>
+  
+  <style>
+    .navbar {
+      margin: auto;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .navbar a.active {
+      background:#fff;
+      color:#000;
+    }
+    .navbar a {
+      display: inline-block;
+      font-size: 1.25em;
+      margin: 0.25rem;
+      font-weight: bold;
+      padding: 12px 12px;
+      text-decoration: none;
+      color: rgba(0,0,0,0.85);
+      border-radius: 15px;
+      transition: background-position 0.6s cubic-bezier(0.22,1,0.36,1);
+      box-shadow: 0 4px 6px  rgba(0,0,0,.01);
+    }
+    .navbar a:hover {
+      background: rgba(0, 0, 0, 0.015);
+      color: rgba(0, 0, 0, 0.95);
+    }
+  
+  </style>
+  
+  <!--Set active class on nav when the page is active -->
+  <script>
+    const nav = document.querySelector(".navbar");
+    const navLinks = nav.querySelectorAll("a");
+    const currentURL = window.location.href;
+    navLinks.forEach((link) => {
+      if (link.href === currentURL) {
+        link.classList.add("active");
+      }
+    });
+  </script>
