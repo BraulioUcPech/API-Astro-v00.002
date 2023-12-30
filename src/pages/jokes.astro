@@ -9,7 +9,6 @@ const response = await fetch(
 );
 const data = await response.json();
 ---
-
 <Layout title="Jokes" description="Some of my jokes">
   <Image
     class="banner-image"
@@ -22,7 +21,7 @@ const data = await response.json();
   <ul class="app-card-list">
     <!--For each joke from response, render an appCard -->
     {
-      data.map((anything) => {
+      data.map((anything: { setup: string, punchline: string }) => {
         return <AppCards name={anything.setup} description={anything.punchline} />;
       })
     }

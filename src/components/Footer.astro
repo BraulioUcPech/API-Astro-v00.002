@@ -26,9 +26,11 @@ const { title } = Astro.props;
   }
 </style>
 
-<!--Set current year as the date for the footer -->
 <script>
   var date = new Date();
-  var year = date.getFullYear();
-  document.getElementById("copyrightDate").innerHTML = year;
+  var year = date.getFullYear().toString();
+  var element = document.getElementById("copyrightDate");
+  if (element) {
+    element.innerHTML = year;
+  }
 </script>
