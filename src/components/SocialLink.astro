@@ -9,7 +9,7 @@ const { name, url, image } = Astro.props;
 ---
 
 <li class="social-card">
-  <a href={url}>
+  <a href={url} target="_blank">
     <img src={image} alt={name} />
     <h2 class="social-label">
       {name}
